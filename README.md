@@ -30,8 +30,8 @@ O algoritmo K-Means faz **agrupamento de entregas próximas**. Ele separa as ent
 A cidade foi representada como um **grafo completo**, onde:
 - Cada nó representa um ponto de entrega;
 - Cada aresta tem um peso baseado na **distância euclidiana** entre os pontos.
--![Exemplo de Grafo](<img width="632" height="499" alt="image" src="https://github.com/user-attachments/assets/d09cf880-4d69-4c33-aff9-42908a7744af" />
-)
+- <img width="632" height="499" alt="image" src="https://github.com/user-attachments/assets/55f99dff-24e5-4f51-a124-30736c7e6c0f" />
+
 
 ---
 
@@ -71,6 +71,7 @@ Essa abordagem é escalável e pode ser aprimorada com dados de trânsito em tem
 ### 🧩 Limitações e Sugestões de Melhoria
 - O modelo atual considera apenas a distância entre pontos, sem levar em conta o trânsito ou tempo real.
 - Poderia ser aprimorado usando dados de tráfego (API do Google Maps) ou aprendizado por reforço para rotas dinâmicas.
+
 
 
 
